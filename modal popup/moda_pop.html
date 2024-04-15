@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modal Popup</title>
+<link rel="stylesheet" href="modal_pop.css">
+</head>
+<body>
+<h1>Modal-Popup</h1>
+<div id="container">
+  <div class="container-inner">
+    <div class="content">
+      <p>Choose one of them.</p>
+    </div>
+    <div class="buttons">
+      <button type="button" class="confirm"><a href="#modalContainer">Confirm</a></button>
+      <button type="button" class="cancel"><a href="#modalContainer1">Cancel</button>
+    </div>
+  </div>
+</div>
+<!-- modal popup -->
+<div id="modalContainer" class="modal-container"> 
+  
+  <div class="modal-content">
+    <!-- Close button added here -->
+    <a href="#" class="close-btn">&times;</a> 
+     
+    <p id="text">   You clicked the Confirm Button!</p>
+  </div>
+</div> 
+<div id="modalContainer1" class="modal-container"> 
+  
+  <div class="modal-content">
+    <!-- Close button added here -->
+    <a href="#" class="close-btn">&times;</a> 
+     
+    <p id="text">   You clicked the close Button!</p>
+  </div>
+</div> 
+
+
+</body>
+</html>

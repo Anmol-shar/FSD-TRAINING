@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impressive Blog Template</title>
+<style>
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0a0a0a;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+
+.main-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+.post {
+  margin-bottom: 40px;
+}
+
+.post h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+.sidebar {
+  background-color: rgba(178, 167, 167, 0.8);
+  padding: 20px;
+}
+
+.sidebar h3 {
+
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+
+.comment-section {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+.comment {
+  margin-bottom: 20px;
+}
+
+.comment h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.comment p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.comment form {
+  margin-top: 20px;
+}
+
+.comment textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.comment input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.comment input[type="submit"]:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="main-content" style="background-image: url('/blog/blog.png');background-size:contain;background-repeat: no-repeat;">
+    <div class="post">
+      <h2>Blog Post Title 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo aliquam, fermentum urna id, blandit odio. Maecenas sit amet venenatis nulla, id ultricies ligula. Integer ut lectus enim. Duis nec malesuada nisi, vel suscipit tellus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo aliquam, fermentum urna id, blandit odio. Maecenas sit amet venenatis nulla, id ultricies ligula. Integer ut lectus enim. Duis nec malesuada nisi, vel suscipit tellus.</p>
+    </div>
+    <div class="post">
+      <h2>Blog Post Title 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo aliquam, fermentum urna id, blandit odio. Maecenas sit amet venenatis nulla, id ultricies ligula. Integer ut lectus enim. Duis nec malesuada nisi, vel suscipit tellus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo aliquam, fermentum urna id, blandit odio. Maecenas sit amet venenatis nulla, id ultricies ligula. Integer ut lectus enim. Duis nec malesuada nisi, vel suscipit tellus.</p>
+    </div>
+  </div>
+  <div class="sidebar" style="background-image: url('/blog/blog3.png');background-size: cover;">
+    <h3>Categories</h3>
+    <ul>
+      <li>Category 1</li>
+      <li>Category 2</li>
+      <li>Category 3</li>
+      <li>Category 4</li>
+      <li>Category 5</li>
+    </ul>
+  </div>
+</div>
+
+<div class="comment-section" style="background-image: url('/blog/blog2.png');background-repeat: no-repeat; ">
+  <div class="comment">
+    <h4>Commenter Name 1</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo aliquam, fermentum urna id, blandit odio.</p>
+  </div>
+  <div class="comment">
+    <h4>Commenter Name 2</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo aliquam, fermentum urna id, blandit odio.</p>
+  </div>
+  <form>
+    <textarea placeholder="Write your comment here"></textarea>
+    <input type="submit" value="Submit Comment">
+  </form>
+</div>
+
+</body>
+</html>

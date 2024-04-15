@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+            font-family: poppins;
+        }
+
+        body {
+            background: #1e1f21;
+            color: #fff;
+
+        }
+
+        .bigbox {
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(3, 2fr);
+            grid-gap: 40px;
+            margin: 60px;
+
+
+        }
+
+        .card {
+            height: 300px;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 5px 5px 15px rgba(255, 254, 254, 0.659);
+        }
+
+        .card img {
+            height: 300px;
+            width: 100%;
+            /* border-radius: 10px; */
+            transition: transform 1s;
+        }
+
+        .content {
+            height: 0;
+            width: 100%;
+            background: linear-gradient(transparent, #2a2a2a30 5%);
+            /* background-color: #1e1f21; */
+            border-radius: 10px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0 40px;
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 10px;
+            transition: height 0.5s;
+            color: #ffffff;
+        }
+
+       
+
+
+
+        .content h2 {
+            font-weight: 500;
+            margin-bottom: 5px;
+            margin-top: 10px;
+            
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+
+        .card img:hover {
+            transform: scale(1.8);
+        }
+
+        .card:hover .content {
+            height: 40%;
+            
+            transition: height 2s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <H1>STATES</H1> -->
+    <div id="card-area">
+        <div class="bigbox">
+            <div class="card">
+                <img src="haryana.png" alt="">
+                <div class="content">
+                    <h2>HARYANA</h2>
+                    <p class="text">Haryana is a North Indian state surrounding New Delhi on 3 sides. 
+                        The Yamuna River runs along its eastern border with Uttar Pradesh. Shared with Punjab,
+                         the state capital Chandigarh is known for its modernist buildings and gridlike street 
+                         plan designed by Swiss architect, Le Corbusier. The Zakir Hussain Rose Garden features 1,600 species, 
+                        while its Rock Garden showcases sculptures made with recycled materials.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="punjab.png" alt="">
+                <div class="content">
+                    <h2>PUNJAB</h2>
+                    <p>Punjab, a state bordering Pakistan, is the heart of India’s Sikh community.
+                         The city of Amritsar, founded in the 1570s by Sikh Guru Ram Das, is the site of Harmandir Sahib,
+                          the holiest gurdwara (Sikh place of worship). Known in English as the Golden Temple, 
+                          and surrounded by the Pool of Nectar, it's a major pilgrimage site. Also in Amritsar is Durgiana Temple,
+                         a Hindu shrine famed for its engraved silver doors.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="himacha.png" alt="">x
+                <div class="content">
+                    <h2>HIMACHAL PRADESH</h2>
+                    <p>Himachal Pradesh is a state in the northern part of India. 
+                        Situated in the Western Himalayas, it is one of the thirteen 
+                        mountain states and is characterised by an extreme landscape 
+                         featuring several peaks and extensive river systems. </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="uttar.png" alt="">
+                <div class="content">
+                    <h2>UTTAR PARDESH</h2>
+                    <p>Uttar Pradesh is a state in northern India. 
+                        With over 241 million inhabitants, it is the 
+                        most populated state in India as well as the most 
+                        populous country subdivision in the world – more 
+                        populous than all but four other countries outside of 
+                        India – and accounting for 16.5 per cent of the total population of India. </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="delhi.png" alt="">
+                <div class="content">
+                    <h2>DELHI</h2>
+                    <p>Delhi, India’s capital territory, is a massive metropolitan area in the country’s north.
+                         In Old Delhi, a neighborhood dating to the 1600s, 
+                         stands the imposing Mughal-era Red Fort, a symbol of India, 
+                         and the sprawling Jama Masjid mosque, whose courtyard accommodates 25,000 people.
+                          Nearby is Chandni Chowk, a vibrant bazaar filled with food carts, sweets shops and 
+                          spice stalls.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="kashmir.png" alt="">
+                <div class="content">
+                    <h2>JAMMU & KASHMIR </h2>
+                    <p>Jammu and Kashmir was a region formerly administered by India as a state from 1952 to 2019, constituting the southern and southeastern portion of the larger Kashmir region, 
+                        which has been the subject of a dispute between India, Pakistan and China since the mid-20th century.  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Card</title>
+  
+  <style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("/recipe/bg1.png");
+    background-size: cover;
+  }
+  
+  .recipe-card {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #0c1e44a2;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .dish-image {
+    height: 500px;
+    background-image: url('/images/fast.png');
+    background-size: cover;
+    background-position: center;
+
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .content {
+    padding: 10px;
+  }
+  
+  .dish-name {
+    font-size: 28px;
+    font-family:cursive;
+    color: #818184d8;
+    margin-bottom: 20px;
+  }
+  
+  .details {
+    display: flex;
+  }
+  
+  .ingredient-list,
+  .instructions {
+    flex: 1;
+    font: large;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #141313;
+  }
+  
+  ul, ol {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  li {
+    color: #747070;
+    font-size: 16px;
+    font-size: 1rem;
+  }
+  
+  .serving-size {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  </style>
+</head>
+<body>
+  <div class="recipe-card">
+    <div class="dish-image">
+      <div class="image-overlay"></div>
+    </div>
+    <div class="content">
+      <h2 class="dish-name">APNA FASTFOOD</h2>
+      <div class="details">
+        <div class="ingredient-list">
+          <h3>Ingredients:</h3>
+          <ul>
+            <li>200g spaghetti</li>
+            <li>100g pancetta or bacon, diced</li>
+            <li>2 large eggs</li>
+            <li>50g grated Parmesan cheese</li>
+            <li>Salt and black pepper to taste</li>
+            <li>Chopped parsley for garnish</li>
+          </ul>
+        </div>
+        <div class="instructions">
+          <h3>Instructions:</h3>
+          <ol>
+            <li>Cook spaghetti in boiling salted water until al dente.</li>
+            <li>In a separate pan, cook pancetta or bacon until crispy.</li>
+            <li>In a bowl, whisk together eggs and grated Parmesan cheese.</li>
+            <li>Drain spaghetti and add to the pan with pancetta, then quickly stir in egg mixture.</li>
+            <li>Season with salt and pepper, garnish with chopped parsley, and serve immediately.</li>
+          </ol>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</body>
+</html>
