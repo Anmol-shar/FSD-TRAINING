@@ -1,0 +1,45 @@
+ /* Background Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+    background-image: url(clock5.png);
+    background-size: cover;
+    color: #f2543f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Container Styling */
+  .container {
+    text-align: center;
+  }
+  
+  /* Clock Icon Styling */
+  .clock-icon {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  /* Clock Styling */
+  .clock {
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  /* Format Toggle Styling */
+  .format-toggle label {
+    font-size: 24px;
+  }
+  
+  .format-toggle input[type="checkbox"] {
+    margin-left: 5px;
+    transform: scale(1.5);
+  }
+  
